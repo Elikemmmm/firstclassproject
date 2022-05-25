@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Eli Kem's Page</title>
+</head>
+<body>
+    <!-- <h1>the nav bar</h1> -->
+    <nav>
+    <h1>Elikem</h1>    
+    <ul class="navigation">
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#skills">Skills</a></li>
+        <li> <a href="#project">Projects</a></li>
+        <li> <a href="#contact">Contacts</a></li>
+
+    </ul>
+    <button class=" burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    </nav>
+
+    <!-- code for the section part -->
+    <section class="hero" id="about">
+        <img src="./assets/images/wfh_1.svg" alt="section image">
+        <div class="bio animate__animated animate__shakeX">
+            <h2>About Me</h2>
+            <p class="bio-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, quam. Ducimus expedita dolores non labore qui doloribus et! Modi, exercitationem!
+            </p>
+        </div>
+    </section>
+    <section class="more-about">
+        <h1> More About Me</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi doloribus itaque, fugiat, soluta, omnis tempore animi voluptatum nam aut corporis asperiores laboriosam! Repudiandae ab, et qui totam aut pariatur maxime!
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, libero veniam exercitationem officia sed modi itaque numquam placeat suscipit obcaecati.
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, tenetur dignissimos? Enim inventore minus nesciunt maiores dolor quibusdam sunt modi adipisci incidunt alias sint, earum aliquid iusto ea tenetur et.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi accusamus corrupti error quibusdam culpa deserunt reprehenderit praesentium dignissimos voluptates.
+        </p>
+
+    </section>
+
+    <section class="skills" id="skills"><h2 class="skill-header">My Top Skills</h2>
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img src="./assets/icons/icons8-html-5.svg" class="icon icon-card" alt="" loading="lazy">
+            <img src="./assets/icons/icons8-css3.svg" class="icon icon-card" alt="" loading="lazy">
+            <img src="./assets/icons/icons8-javascript.svg" class="icon icon-card" alt="" loading="lazy">
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+            <img src="./assets/icons/icons8-bootstrap.svg" class="icon icon-card" alt="" loading="lazy">
+            <img src="./assets/icons/icons8-react-native.svg" class="icon icon-card" alt="" loading="lazy">
+            <img src="./assets/icons/icons8-git.svg" class="icon icon-card" alt="" loading="lazy">
+        </div>
+    </div>    
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title"> Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="./assets/images/expenseTracker.png" alt="" class="project-pic" loading="lazy">
+                <h3 class="project-title">Expense Tracker</h3>
+                <p class="project-details">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, atque?
+                </p>
+                <a href="www.mysite.com" class="project-link"> Check the Expense Tracker project</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="./assets/images/netflixClone.png" alt="" class="project-pic" loading="lazy">
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, alias?
+                </p>
+                <a href="www.mysite.com" class="project-link"> Check the Netflix Clone project</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="./assets/images/greenyEarth.png" alt="" class="project-pic" loading="lazy">
+                <h3 class="project-title">Greeny Earth</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, provident.
+                </p>
+                <a href="www.mysite.com" class="project-link"> Check the Greeny Earth project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's get in touch</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="Post">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" name="sender-name" id="name" placeholder="Enter your name" class="input-feild" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" name="sender-email" id="email" placeholder="Enter your email" class="input-feild" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="messages">Messages</label>
+                        <textarea name="messages" id="name" cols="30" rows="10" class="input-feild" required></textarea>
+                    </div> 
+                    <input type="submit" value="Send now" id="submit-btn" class="submit-btn">
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    <div class="socials">
+        <a href="#" target="_blank">
+            <img src="./assets/icons/icons8-twitter-circled.gif" alt="twitter icon" loading="lazy" class="socicon">
+        </a>
+
+        <a href="#" target="_blank">
+            <img src="./assets/icons/icons8-instagram.gif" alt="instagram icon" loading="lazy" class="socicon">
+        </a>
+
+        <a href="#" target="_blank">
+            <img src="./assets/icons/icons8-javascript.svg" alt="javascript icon" loading="lazy" class="socicon">
+        </a>
+    </div>
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            <!-- input personal https details into href -->
+            Made with &#x1f49E;<a href=""> by Eli Kem</a>
+        </p>
+    </footer>
+
+    <i class="scroll-up" id="scroll-up">
+        <img class="socicon up-arrow" src="./assets/icons/icons8-upward-arrow.gif" alt="scroll-up">
+    </i>
+
+    <script>
+
+        const scrollUp = document.querySelector("#scroll-up");
+
+        scrollUp.addEventListener("click", () =>{
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behaviour:"smooth"
+            });
+        });
+
+        const burger=document.querySelector("#burger-menu");
+        const ul = document.querySelector("nav ul");
+        const nav = document.toggle("show");
+
+        burger.addEventListener("click", () =>{
+            ul.classList.toggle("show");
+        });
+
+        const navlink =document.querySelectorAll(".nav-link");
+
+        navlink.forEach(link => {
+            link.addEventListener("click", ()=>{
+                ul.classList.remove("show");
+            })
+        })
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2-0/dist/ionicons.js"></script>
+
+</body>
+</html>
